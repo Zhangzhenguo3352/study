@@ -4,14 +4,15 @@
     <text class="title">欢迎打开{{title}}</text>
     <!-- 点击跳转详情页 -->
     <input class="btn" type="button" value="跳转到详情页" onclick="routeDetail" />
+
   </div>
 </template>
 
 <style>
   .demo-page {
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 
   .title {
@@ -22,8 +23,6 @@
   .btn {
     width: 550px;
     height: 86px;
-    margin-top: 75px;
-    border-radius: 43px;
     background-color: #09ba07;
     font-size: 30px;
     color: #ffffff;

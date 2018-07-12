@@ -14,10 +14,11 @@
     { "origin": "*" }
   ],
   "config": {
-    "logLevel": "off"
+    "logLevel": "debug",
+    "designWidth": 750
   },
   "router": {
-    "entry": "Demo",
+    "entry": "DemoDetail",
     "pages": {
       "Demo": {
         "component": "index"
@@ -40,7 +41,7 @@
         "menu": false
       },
       "DemoDetail": {
-        "titleBarText": "详情页"
+        "titleBarText": "页布局"
       },
       "About": {
         "menu": false
