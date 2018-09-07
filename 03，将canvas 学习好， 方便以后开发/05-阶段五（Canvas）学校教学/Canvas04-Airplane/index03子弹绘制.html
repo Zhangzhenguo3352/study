@@ -222,6 +222,7 @@
 					this.y-=2;
 					//查看子弹个数，越来越多，数组只保存页面显示区的子弹个数
 					document.title=heroObj.bullets.length;
+					// console.log('document.title',document.title)
 					if (this.y<=-this.h) {
 						this.death();
 					}
